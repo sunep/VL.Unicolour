@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="FvkzMphhsqJNlLFejkaAK9" LanguageVersion="2023.5.3-0189-g3b1140fa91" Version="0.128">
+  <NugetDependency Id="VilYvv3eJwrMVKFQPKw633" Location="VL.CoreLib" Version="2023.5.3-0189-g3b1140fa91" />
+  <Patch Id="Hf0d5PIZeFBLyNDuFIcLwJ">
+    <Canvas Id="Lst9Ld6DX0vO1S6RUuq5Me" DefaultCategory="Main" CanvasType="FullCategory">
+      <Canvas Id="VOTEC4WIQSGOz7s32EhRNb" Name="Color.Unicolour" Position="487,215" DefaultCategory="Main.Color.Unicolour">
+        <!--
+
+    ************************ Alpha ************************
+
+-->
+        <Node Name="Alpha" Bounds="91,92" Id="Sotrla1bIEzOZEJ5raA1Mu">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Alpha" />
+          </p:TypeAnnotation>
+          <Patch Id="EINLKnm8BPFNstIwnKhwwJ">
+            <Canvas Id="KZg6fk3w9t6QW2oi725Ve5" CanvasType="Group" />
+            <ProcessDefinition Id="D4SBdIbGhOlMmXcz6asXa4" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Cam ************************
+
+-->
+        <Node Name="Cam" Bounds="371,92" Id="JqiJzZNu2UYPiHAswkHhM8">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Cam" />
+          </p:TypeAnnotation>
+          <Patch Id="QlZYCUPw6QNLgyV4UpkzNo">
+            <Canvas Id="Js1XiMxloudOormC3XPJU8" CanvasType="Group" />
+            <ProcessDefinition Id="S98b3xoo9YkM7PmVxnIqpT" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Cam02 ************************
+
+-->
+        <Node Name="Cam02" Bounds="651,92" Id="KnYVnrDtJzgNTVjWQm2zLe">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Cam02" />
+          </p:TypeAnnotation>
+          <Patch Id="JwVnP4kJMUMLOETZXGctVo">
+            <Canvas Id="HmI980Jy9FbPMCRYQdRf9C" CanvasType="Group" />
+            <ProcessDefinition Id="Jfob1COjPgCNuK4TZWafXe" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Cam16 ************************
+
+-->
+        <Node Name="Cam16" Bounds="931,92" Id="F8aKCmA91npNtj0Psc9DCG">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Cam16" />
+          </p:TypeAnnotation>
+          <Patch Id="PXVvtWtQMofNxXQNvglZ5C">
+            <Canvas Id="NtTRwCDX58mPlXV9bU8TWK" CanvasType="Group" />
+            <ProcessDefinition Id="V7qH534nQ1MPOAKY6H4zwf" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ CamConfiguration ************************
+
+-->
+        <Node Name="CamConfiguration" Bounds="1211,92" Id="GIjsNuzOqq3OrI2xoUdoJn">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="CamConfiguration" />
+          </p:TypeAnnotation>
+          <Patch Id="Vz0tdNWfdmYNsIWKLgtYat">
+            <Canvas Id="OMtpUv6EAVMOg5RIsgnhft" CanvasType="Group" />
+            <ProcessDefinition Id="JVyuOxH4fPfLg8QcHtAvjw" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Chromaticity ************************
+
+-->
+        <Node Name="Chromaticity" Bounds="1491,92" Id="IwzHAwS6ZZFQOPABMnXVUW">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Chromaticity" />
+          </p:TypeAnnotation>
+          <Patch Id="MxJJP7VvXE8NaEHYFF3tZs">
+            <Canvas Id="R4j2o8GPe7aPTTcxtnln6s" CanvasType="Group" />
+            <ProcessDefinition Id="U8dne2pfaUqMYtGRVmI3QK" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ ColourRepresentation ************************
+
+-->
+        <Node Name="ColourRepresentation" Bounds="91,142" Id="UzbEiqFzYtFNw4bgTIztH5">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="ColourRepresentation" />
+          </p:TypeAnnotation>
+          <Patch Id="ClfYkFjkvpqLCrMlrCbU9T">
+            <Canvas Id="PDo7UVhPYB1QZIssSIYKVq" CanvasType="Group" />
+            <ProcessDefinition Id="Olf4aPULjAuOpXoLMqZa6D" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ ColourTriplet ************************
+
+-->
+        <Node Name="ColourTriplet" Bounds="371,142" Id="PTs4TfSIVl7NZnpDiCZQlu">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="ColourTriplet" />
+          </p:TypeAnnotation>
+          <Patch Id="Mw2u3Kf1CjAOxQPPYLMflN">
+            <Canvas Id="FqnbWFkcUybNJVnOJXm2i0" CanvasType="Group" />
+            <ProcessDefinition Id="OVAbr3W9iDuLu4LK9697cG" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Companding ************************
+
+-->
+        <Node Name="Companding" Bounds="651,142" Id="KpmnvL7JRsbNBklEndIh83">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Companding" />
+          </p:TypeAnnotation>
+          <Patch Id="UbptQwt2ZNdPsI2XI1QjD1">
+            <Canvas Id="G3RCq4DedZAPd6fvCHpx4P" CanvasType="Group" />
+            <ProcessDefinition Id="UIOMXAxnVJwOCLz724ZtfN" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Comparison ************************
+
+-->
+        <Node Name="Comparison" Bounds="931,142" Id="BKGrkkXwaYnLhZ7GDQbo3N">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Comparison" />
+          </p:TypeAnnotation>
+          <Patch Id="BAb6uaK1cPDNvt9QouYRqj">
+            <Canvas Id="O2QEA46etHwMI5WnjKUhDL" CanvasType="Group" />
+            <ProcessDefinition Id="KhZd1FOjlwpLB3Kq065W6y" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Configuration ************************
+
+-->
+        <Node Name="Configuration" Bounds="1211,142" Id="NSffKBPFCvzNKE4cymVE9C">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Configuration" />
+          </p:TypeAnnotation>
+          <Patch Id="QccnYzuwSnVMlMW6wiRp3B">
+            <Canvas Id="RNlrUdp80YWLLgqnSBVpOw" CanvasType="Group" />
+            <ProcessDefinition Id="QhgtcvLtCuvPb4AXFKHT2g" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Hpluv ************************
+
+-->
+        <Node Name="Hpluv" Bounds="1491,142" Id="SLS2F2FoRnBLiEuGAN0jes">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Hpluv" />
+          </p:TypeAnnotation>
+          <Patch Id="VVPDdnM0tfYLUBDJKl3Iu8">
+            <Canvas Id="AGm8TtfQ39YNML3Jwm31CK" CanvasType="Group" />
+            <ProcessDefinition Id="CWhTzFhlZeTMUXBQl7h4vJ" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Hsb ************************
+
+-->
+        <Node Name="Hsb" Bounds="91,192" Id="HHtRwwuyTl0PLwNp5iw2L0">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Hsb" />
+          </p:TypeAnnotation>
+          <Patch Id="JFkU27STxovPxPOJlgDQ9N">
+            <Canvas Id="IVqN3M7XKJyMR7BiI8WkNk" CanvasType="Group" />
+            <ProcessDefinition Id="Nc3OrUsIIN8OTqPluA5fal" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Hsl ************************
+
+-->
+        <Node Name="Hsl" Bounds="371,192" Id="L21zzT6JCEPOpk9Bh4tiVA">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Hsl" />
+          </p:TypeAnnotation>
+          <Patch Id="OJx6lDiC1OjQIQQh8cjXpz">
+            <Canvas Id="HsuPRdrFi6NPI09O2jdCgo" CanvasType="Group" />
+            <ProcessDefinition Id="H9s8eD2tXwyP8wVH8jFYiw" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Hsluv ************************
+
+-->
+        <Node Name="Hsluv" Bounds="651,192" Id="EvCQvdqcm9PLFLKltTkDW4">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Hsluv" />
+          </p:TypeAnnotation>
+          <Patch Id="MgAmKtFYiyzO92FC5nEGxK">
+            <Canvas Id="HpFFgM1TsUALMlCBZGxvlj" CanvasType="Group" />
+            <ProcessDefinition Id="Rvq6bcyGwWLPF0uq3J34cp" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Hwb ************************
+
+-->
+        <Node Name="Hwb" Bounds="931,192" Id="UfukgCpMFJYNLEvurUNbjr">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Hwb" />
+          </p:TypeAnnotation>
+          <Patch Id="C3YYGkEN633QFX3qgwkXiW">
+            <Canvas Id="VGyYLMLiMd3L0Mrir36tRI" CanvasType="Group" />
+            <ProcessDefinition Id="LXsVZc8eiLNNx2zDMPPEVk" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Ictcp ************************
+
+-->
+        <Node Name="Ictcp" Bounds="1211,192" Id="CcO5wf4nYhDNHQhGNeNdqa">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Ictcp" />
+          </p:TypeAnnotation>
+          <Patch Id="VIKSKtOVLQnMOlJey88mxf">
+            <Canvas Id="CHPcKQ6IkT2QTRfFhnf5dO" CanvasType="Group" />
+            <ProcessDefinition Id="NnhWzzAa2gZLppKZsrXFzX" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Illuminant ************************
+
+-->
+        <Node Name="Illuminant" Bounds="1491,192" Id="D6UPcBjUV99N6AJsK7sG60">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Illuminant" />
+          </p:TypeAnnotation>
+          <Patch Id="Tgxd3iWsoPGMyAsfuUfCZC">
+            <Canvas Id="KxpKgMJs3LWMSMWcRzQXMQ" CanvasType="Group" />
+            <ProcessDefinition Id="J1cDlIECf9PQLgtWdcsuIu" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Interpolation ************************
+
+-->
+        <Node Name="Interpolation" Bounds="91,242" Id="CDs0XwM4dIjMwg0OGf4F43">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Interpolation" />
+          </p:TypeAnnotation>
+          <Patch Id="Men7gzRvh11Oqjm4oo2AMa">
+            <Canvas Id="N4mPaFUq1pwNFfAJ8PFL6C" CanvasType="Group" />
+            <ProcessDefinition Id="T9J8leVLdu4OreTuCRNVdM" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Jzazbz ************************
+
+-->
+        <Node Name="Jzazbz" Bounds="371,242" Id="O9rfILsh1jnO3EBEbUt3IW">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Jzazbz" />
+          </p:TypeAnnotation>
+          <Patch Id="UE4DGbZpAmsN9Rp2RG1JW5">
+            <Canvas Id="NVKE2zllenTN0LifWKz8Kn" CanvasType="Group" />
+            <ProcessDefinition Id="GY5BgFVDh4aPZWx3N0Hb0t" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Jzczhz ************************
+
+-->
+        <Node Name="Jzczhz" Bounds="651,242" Id="PPDrx4kxlFJLDTv6K8v9me">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Jzczhz" />
+          </p:TypeAnnotation>
+          <Patch Id="RSCCqCTWlEAPxNyURCoruz">
+            <Canvas Id="PrugffjndtaOZOQ08DedR4" CanvasType="Group" />
+            <ProcessDefinition Id="MAareQjKswdQVhGDcphmPI" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Lab ************************
+
+-->
+        <Node Name="Lab" Bounds="931,242" Id="Ex8Dxbjq1VgNEetMEdDyLB">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Lab" />
+          </p:TypeAnnotation>
+          <Patch Id="LYtmBu7sOVpQL0uXXHHJEn">
+            <Canvas Id="VieLhQuXuTGQOEIlqY6q2D" CanvasType="Group" />
+            <ProcessDefinition Id="AAcFKS0PdV2QXZ3NsS39Nj" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Lchab ************************
+
+-->
+        <Node Name="Lchab" Bounds="1211,242" Id="MPok0F3YiG9LNT06K42r6y">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Lchab" />
+          </p:TypeAnnotation>
+          <Patch Id="IAnMD6k5YUWQOsGBEhkPyp">
+            <Canvas Id="LwHfhVbqj6xLTt6HisZyek" CanvasType="Group" />
+            <ProcessDefinition Id="IKTOCzYZYxsMN0641cRNxa" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Lchuv ************************
+
+-->
+        <Node Name="Lchuv" Bounds="1491,242" Id="LxnvPdg0YcnLtusOLDJatA">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Lchuv" />
+          </p:TypeAnnotation>
+          <Patch Id="Bs9kPGfOkRcLUAKaxT1vFN">
+            <Canvas Id="IK0CgDajbj2MololHxueYx" CanvasType="Group" />
+            <ProcessDefinition Id="ABPY6akwnsKM8IJn9nkHhE" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Luv ************************
+
+-->
+        <Node Name="Luv" Bounds="91,292" Id="SAMATTalLJQOpk8rpQNTdc">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Luv" />
+          </p:TypeAnnotation>
+          <Patch Id="EBC0kRUbD9zO2LrNcgsELr">
+            <Canvas Id="IYs3cONsa8rNoD5saLbCUB" CanvasType="Group" />
+            <ProcessDefinition Id="Kmykqf8aBTWOMyfYoRQBJV" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Observer ************************
+
+-->
+        <Node Name="Observer" Bounds="371,292" Id="A1qpAvKf7EfNtgwnapqzqA">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Observer" />
+          </p:TypeAnnotation>
+          <Patch Id="Q2NTKjhjCwFMWTBEmiGrtj">
+            <Canvas Id="MMk7x2uoy9XMwW1CmnS38l" CanvasType="Group" />
+            <ProcessDefinition Id="HufSU6vL3IkOvqlrNt1MSy" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Oklab ************************
+
+-->
+        <Node Name="Oklab" Bounds="651,292" Id="HfoEPtq4VH7LbX7fApaOQX">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Oklab" />
+          </p:TypeAnnotation>
+          <Patch Id="RwQ5zx4WdcYO3v9QQ3ea0p">
+            <Canvas Id="LqGYxm7PmtZPo9l9URSaY8" CanvasType="Group" />
+            <ProcessDefinition Id="E975mZLclxnLF7mq7pNBkJ" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Oklch ************************
+
+-->
+        <Node Name="Oklch" Bounds="931,292" Id="QXFu1otaQHUN7rRQaIAXT3">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Oklch" />
+          </p:TypeAnnotation>
+          <Patch Id="GBEbMiHwZf0LBytAJUAIiu">
+            <Canvas Id="LvuCcGxL7WMOteanezAEtH" CanvasType="Group" />
+            <ProcessDefinition Id="SgqoLakOV8UQEl6UN2nLxe" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Rgb ************************
+
+-->
+        <Node Name="Rgb" Bounds="1211,292" Id="MLBZTq0pZxJLz42TQHDV7e">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Rgb" />
+          </p:TypeAnnotation>
+          <Patch Id="PtXJYhtYxIoPff0yHqoYEI">
+            <Canvas Id="SxYi8F1bjUTOOtBPvPv24M" CanvasType="Group" />
+            <ProcessDefinition Id="M7rNbddrGAaNPzQJtqQ2A7" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Rgb255 ************************
+
+-->
+        <Node Name="Rgb255" Bounds="1491,292" Id="DVhZLvf3WmoNo5QWVG6r8m">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Rgb255" />
+          </p:TypeAnnotation>
+          <Patch Id="RmZF2rZvt1CQc9xziCoIXS">
+            <Canvas Id="PVQhWVJqYNhOUAPTS4PaT8" CanvasType="Group" />
+            <ProcessDefinition Id="Sstq3jS2Hq0QANMIi316TO" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ RgbConfiguration ************************
+
+-->
+        <Node Name="RgbConfiguration" Bounds="91,342" Id="JnDGA0ts6i2MCNy0WoU6he">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="RgbConfiguration" />
+          </p:TypeAnnotation>
+          <Patch Id="EKYst8TFf52Nn8Kz7kI4Dq">
+            <Canvas Id="HCIE3JrYIbLMlBzNi15lWZ" CanvasType="Group" />
+            <ProcessDefinition Id="PclSPPWsCabPCUq3tJWUmx" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ RgbLinear ************************
+
+-->
+        <Node Name="RgbLinear" Bounds="371,342" Id="QVeCN8bz0faMEdEcpDnYXq">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="RgbLinear" />
+          </p:TypeAnnotation>
+          <Patch Id="CChSOvCzMH2NsZ8SInMAaw">
+            <Canvas Id="I821zlYKEvGLXHxgUJ0tcH" CanvasType="Group" />
+            <ProcessDefinition Id="Hgv0nG3watQMX0Zhbjhau1" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Surround ************************
+
+-->
+        <Node Name="Surround" Bounds="656,343" Id="BIViFD1bMkGM1D7Ar260U2">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Surround" />
+          </p:TypeAnnotation>
+          <Patch Id="S0RZRkq8k8oOpIvWoXb7Re">
+            <Canvas Id="PYLehT5nXPPNHGh6U6Gtme" CanvasType="Group" />
+            <ProcessDefinition Id="QSdtzFUdQtsN4IWJrfE2CI" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Temperature ************************
+
+-->
+        <Node Name="Temperature" Bounds="931,342" Id="SVyEvM4hMaXLXSbONw8foT">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Temperature" />
+          </p:TypeAnnotation>
+          <Patch Id="Fm2CDWWuF2xO9eiQtGCYrv">
+            <Canvas Id="KOAyM6UiLqAPdcjFsU72Ho" CanvasType="Group" />
+            <ProcessDefinition Id="U9RNH37bRgOPqcJpUwcfLl" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Unicolour ************************
+
+-->
+        <Node Name="Unicolour" Bounds="1211,342" Id="UQ5IN3q4F1jOvMNSkW7Iyv">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Unicolour" />
+          </p:TypeAnnotation>
+          <Patch Id="Dx2ZYHOJTsZOjeJlkWMPvH">
+            <Canvas Id="SG7RGWPBRxCMDlkttGjmzp" CanvasType="Group" />
+            <ProcessDefinition Id="Pa6N0CYr593LmJuTc4dRQi" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ WhitePoint ************************
+
+-->
+        <Node Name="WhitePoint" Bounds="1491,342" Id="DdmJr2VzhjRK9qXdBhB8dh">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="WhitePoint" />
+          </p:TypeAnnotation>
+          <Patch Id="Ic3u642RnaFQKKNn4Trbv9">
+            <Canvas Id="VMUUF08MKc6Lvtix6PBtJs" CanvasType="Group" />
+            <ProcessDefinition Id="OfLEK78KWiqL6GkCG5pi1J" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Xyy ************************
+
+-->
+        <Node Name="Xyy" Bounds="91,392" Id="ORDmDGLIYONQUN3ALyPjOi">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Xyy" />
+          </p:TypeAnnotation>
+          <Patch Id="NjAocGuwQ7hOaDIIIEbn3L">
+            <Canvas Id="LARoIun0vCEOwpH2rSaYsT" CanvasType="Group" />
+            <ProcessDefinition Id="H7Inn71D9BDL78wzvD1f2J" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Xyz ************************
+
+-->
+        <Node Name="Xyz" Bounds="371,392" Id="QbNr0jyhaXXP532bdY9Ajo">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="Xyz" />
+          </p:TypeAnnotation>
+          <Patch Id="Uj4xOzbUwgXNHBxup1PRxM">
+            <Canvas Id="LqQa1aWP3SiPBCW2x9KUWf" CanvasType="Group" />
+            <ProcessDefinition Id="JlJSEuUfXzQOPBbeGV0mOp" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ XyzConfiguration ************************
+
+-->
+        <Node Name="XyzConfiguration" Bounds="651,392" Id="GOhkw5ezfTDNqJopBlBgLC">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
+            <Choice Kind="TypeFlag" Name="XyzConfiguration" />
+          </p:TypeAnnotation>
+          <Patch Id="BRFQo9ueajYNIMkJ0j1jNP">
+            <Canvas Id="EXVB8VGgb0CNEnEauAqhuF" CanvasType="Group" />
+            <ProcessDefinition Id="SHzVKBL2tG4PFHBLJIL5Pu" IsHidden="true" />
+          </Patch>
+        </Node>
+      </Canvas>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="ReLUfbQU2XeMbjQmt4xiqS">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="IN8d6h6fBHPQR64CwgoTW6">
+        <Canvas Id="DiHtwwSL8IkOsy8V4KjDjh" CanvasType="Group" />
+        <Patch Id="OX9YZHOldTiNJk8GsWGnBA" Name="Create" />
+        <Patch Id="IWjlbTfTyNaLeT5G6zRBMw" Name="Update" />
+        <ProcessDefinition Id="LlWGilIDN9NPhTKTl9WOA4">
+          <Fragment Id="IV7ayld40vtPkwdu5JaB4p" Patch="OX9YZHOldTiNJk8GsWGnBA" Enabled="true" />
+          <Fragment Id="JKARYlXfoR2O5dLgKy1jtD" Patch="IWjlbTfTyNaLeT5G6zRBMw" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <PlatformDependency Id="AUmx46kvynFMaImxb68Net" Location="C:/Users/sunep/AppData/Local/vvvv/gamma-preview/nugets/Wacton.Unicolour.2.3.0/lib/netstandard2.0/Wacton.Unicolour.dll" />
+</Document>
