@@ -231,7 +231,7 @@
             </Patch>
           </Node>
           <Node Bounds="110,413,102,19" Id="DGn97GYolk0NMyVRbZeay3">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -310,7 +310,7 @@
             </Patch>
           </Node>
           <Node Bounds="110,557,72,19" Id="GxhzoDAUhmLPIwlgV8LUpr">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ToUnicolour" />
             </p:NodeReference>
@@ -319,7 +319,7 @@
             <Pin Id="QyHR63YfRy7QFjL49nSwHa" Name="Unicolour" Kind="OutputPin" />
           </Node>
           <Node Bounds="110,595,102,19" Id="AAwkR8xgS2XP9oTO6b797o">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -478,7 +478,7 @@
           </Node>
           <Pad Id="VWCr26HWNOxQGQXlT62SkJ" Comment="Relative Luminance" Bounds="447,564,35,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="566,452,75,26" Id="MefrdvKiGPgLZzVLS5LCAU">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Unicolour" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Temperature" />
             </p:NodeReference>
@@ -513,7 +513,7 @@
           </Node>
           <Pad Id="CGxsTzAerZdLknLSEKcoPh" Comment="Hex" Bounds="706,498,53,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="809,450,51,26" Id="AF0FHrDPZNoLXc0wYya8c6">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Unicolour" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Alpha" />
             </p:NodeReference>
@@ -547,7 +547,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="941,900,92,26" Id="IOaKZcUQuphNCW3qaOZQk3">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Interpolation" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Interpolation" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="InterpolateOklab" />
             </p:NodeReference>
@@ -557,7 +557,7 @@
             <Pin Id="NL40CBEVzSnLtzjMvCJOyN" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1049,691,72,19" Id="K3WXRdTPjH3LDMRSfhDPbw">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ToUnicolour" />
             </p:NodeReference>
@@ -566,7 +566,7 @@
             <Pin Id="MgsdXRiqn0eNWiM95gLSW0" Name="Unicolour" Kind="OutputPin" />
           </Node>
           <Node Bounds="941,944,102,19" Id="NVAYrzHrYWXLrZOUdUifOX">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -581,7 +581,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="439,798,60,26" Id="N2Q9Z8I6Y1dPwVEArClUfy">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Comparison" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Comparison" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Contrast" />
             </p:NodeReference>
@@ -591,7 +591,7 @@
           </Node>
           <Pad Id="GMh4WemR9b4OvCXuHtQNEg" Comment="Contrast" Bounds="441,871,35,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="554,798,60,26" Id="T6vGPlVAGTqPEypXer4pjf">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Comparison" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Comparison" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="DeltaE76" />
             </p:NodeReference>
@@ -626,7 +626,7 @@
           </Node>
           <Pad Id="Nb15hNxWh20LaB6CrTh1zZ" Comment="" Bounds="445,642,345,22" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="729,900,96,26" Id="UAcEOeyU5RNM2vMc17nKTZ">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Interpolation" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Interpolation" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="InterpolateJzazbz" />
             </p:NodeReference>
@@ -636,7 +636,7 @@
             <Pin Id="OfiNgq41StFMxFWm2EFQt1" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="729,944,102,19" Id="LkgiTi9iIkoMm3zrCJSLoW">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -649,7 +649,7 @@
             <p:ColorIndex p:Type="Int32">9</p:ColorIndex>
           </Overlay>
           <Node Bounds="1152,900,98,26" Id="Q0y59nJKDIxOZ3lPIb5ATx">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Interpolation" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Interpolation" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="InterpolateCam16" />
             </p:NodeReference>
@@ -659,7 +659,7 @@
             <Pin Id="RvipcTxLlDkPchCU2v5TRS" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1360,944,102,19" Id="E1f3k1QlZI2P7iA53fTmVE">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -669,7 +669,7 @@
           </Node>
           <Pad Id="RP4dSWaDzsNMeEw9yZGzHL" Comment="RGBA" Bounds="1362,994,146,119" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1152,944,102,19" Id="Alp5zFKILEcLyVcGtBnAsi">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -679,7 +679,7 @@
           </Node>
           <Pad Id="NSoS1NBVhsbL5HuP4EnWB8" Comment="RGBA" Bounds="1154,994,146,119" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1360,900,82,26" Id="J0sT6CPt1I9N0Pqq0FtMy2">
-            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Interpolation" LastDependency="VL.Unicolour.vl">
+            <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Interpolation" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="InterpolateXyz" />
             </p:NodeReference>
@@ -714,7 +714,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="N0L8nTCCfNxNdgb83Mgs1B" Bounds="1038,311,158,19" ShowValueBox="true" isIOBox="true" Value="An adaption of Unicolour">
+          <Pad Id="N0L8nTCCfNxNdgb83Mgs1B" Bounds="1038,311,158,19" ShowValueBox="true" isIOBox="true" Value="A wrapping of Unicolour">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -816,6 +816,6 @@
       </Patch>
     </Node>
   </Patch>
-  <DocumentDependency Id="LDYGRl6t0rwP4Bu7Ub4wS8" Location="./VL.Unicolour.vl" />
   <PlatformDependency Id="RtuafvtJ9cqMF18RCUXa7R" Location="C:/Users/sunep/AppData/Local/vvvv/gamma-preview/nugets/Wacton.Unicolour.2.3.0/lib/netstandard2.0/Wacton.Unicolour.dll" />
+  <DocumentDependency Id="SZplZNhF7uqOcgpzRkjen5" Location="../VL.Unicolour.vl" />
 </Document>
