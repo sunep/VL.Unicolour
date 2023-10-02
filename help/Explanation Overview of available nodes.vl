@@ -285,7 +285,7 @@
             <Pin Id="QpUFkc0A2uQNp7XwonYaSz" Name="Distance" Kind="InputPin" />
             <Pin Id="NL40CBEVzSnLtzjMvCJOyN" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="941,939,102,19" Id="NVAYrzHrYWXLrZOUdUifOX">
+          <Node Bounds="941,939,53,19" Id="NVAYrzHrYWXLrZOUdUifOX">
             <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ToRGBA" />
