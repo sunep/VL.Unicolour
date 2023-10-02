@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Unicolour</id>
-    <version>0.0.3-alpha</version>
+    <version>0.0.4-alpha</version>
     <title>VL.Unicolour</title>
     <authors>Sune Petersen</authors>
     <owners>sunep</owners>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Unicolour for VL</summary>
     <description>Unicolour for VL</description>
-    <readme>docs\README.md</readme>
+    <readme>README.md</readme>
     <tags>VL, Color, Unicolour, Oklab</tags>
 	<license type="expression">MIT</license>
     <dependencies>
