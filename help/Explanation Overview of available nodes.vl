@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="EErsCwbNfAELeJMaLmb3ID">
         <Canvas Id="P4ls4WUURhoN0Dl2RvFxvO" CanvasType="Group">
-          <Node Bounds="237,196,66,19" Id="TwlPF5bad26OQlE8VEPyhT">
+          <Node Bounds="239,196,66,19" Id="TwlPF5bad26OQlE8VEPyhT">
             <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll" OverloadStrategy="AllPinsThatAreNotCommon">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="Wacton" />
@@ -32,29 +32,29 @@
             <Pin Id="EFxjihOJnuTOL7HE7eceKa" Name="Alpha" Kind="InputPin" />
             <Pin Id="STa8QYz3kiDNCWJc0CLpuJ" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="CIqZf89QsnUN7AuQSd3znz" Comment="A" Bounds="259,120,35,15" ShowValueBox="true" isIOBox="true" Value="0.58">
+          <Pad Id="CIqZf89QsnUN7AuQSd3znz" Comment="A" Bounds="261,120,35,15" ShowValueBox="true" isIOBox="true" Value="0.58">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KC2mCjolm2gPQAn3aXjnss" Comment="B" Bounds="279,145,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+          <Pad Id="KC2mCjolm2gPQAn3aXjnss" Comment="B" Bounds="281,145,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VayjX3h9ttgLBPStow10ZI" Comment="L" Bounds="239,95,35,15" ShowValueBox="true" isIOBox="true" Value="0.84">
+          <Pad Id="VayjX3h9ttgLBPStow10ZI" Comment="L" Bounds="241,95,35,15" ShowValueBox="true" isIOBox="true" Value="0.84">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="UPJi11c7bFXPcC3diEf5Ee" Comment="Alpha" Bounds="300,165,35,15" ShowValueBox="true" isIOBox="true" Value="0.86">
+          <Pad Id="UPJi11c7bFXPcC3diEf5Ee" Comment="Alpha" Bounds="302,165,35,15" ShowValueBox="true" isIOBox="true" Value="0.86">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="Nv4wLLsJXZFOF8eJ4YxeRN" Comment="RGBA" Bounds="112,456,141,102" ShowValueBox="true" isIOBox="true" />
           <Pad Id="AKOdgPonf1VLgcuT3vpfDt" Comment="RGBA" Bounds="112,650,146,119" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="109,277,652,19" Id="NDxyO9gWkzxPCKVVDmRZ4E">
+          <Node Bounds="109,277,1043,19" Id="NDxyO9gWkzxPCKVVDmRZ4E">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -67,8 +67,11 @@
             <Pin Id="HwMrzHVCrlANfxfn83QzWX" Name="Input 3" Kind="InputPin" />
             <Pin Id="SNpLc7hgqq9MjRjlbP3xXl" Name="Input 4" Kind="InputPin" />
             <Pin Id="Tf0XlvkYQjxNzTLrFfE1dQ" Name="Input 5" Kind="InputPin" />
+            <Pin Id="QIPYMYwIB7yO1wzQZXjLph" Name="Input 6" Kind="InputPin" />
+            <Pin Id="ONToN7xmlpIP9WSAwqm1pu" Name="Input 7" Kind="InputPin" />
+            <Pin Id="Qjp7fmTwgnfQN8a0edpnuT" Name="Input 8" Kind="InputPin" />
           </Node>
-          <Node Bounds="367,199,58,19" Id="FKmR0ruJNBYLptM7wGrtZ3">
+          <Node Bounds="368,199,58,19" Id="FKmR0ruJNBYLptM7wGrtZ3">
             <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="Unicolour" NeedsToBeDirectParent="true">
@@ -79,7 +82,7 @@
             <Pin Id="QsHIGS71IovQFwVkwJgRrO" Name="Hex" Kind="InputPin" />
             <Pin Id="EiQdXPSFw2UNsGMSsT6amd" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="UY6mMd5oPN5ODUwy05IaNi" Comment="Hex" Bounds="369,184,54,15" ShowValueBox="true" isIOBox="true" Value="#BADBED">
+          <Pad Id="UY6mMd5oPN5ODUwy05IaNi" Comment="Hex" Bounds="370,184,54,15" ShowValueBox="true" isIOBox="true" Value="#BADBED">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -99,7 +102,7 @@
             <Pin Id="SLYW8aJvGy9MYvEDFQhWaO" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="LwE40PM7kHBNQca8jtC6V3" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Node Bounds="496,199,66,19" Id="HHewgUASYlGQYPJFEP6g8f">
+          <Node Bounds="498,199,66,19" Id="HHewgUASYlGQYPJFEP6g8f">
             <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll" OverloadStrategy="AllPinsThatAreNotCommon">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
@@ -114,22 +117,22 @@
             <Pin Id="LjpYpK4iudYPxGRqHiE2RV" Name="Alpha" Kind="InputPin" />
             <Pin Id="KrDZ910XB8VMc6teJs8nJc" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="E3TRYELkbmdQWE37HL1EJj" Comment="H" Bounds="498,112,35,15" ShowValueBox="true" isIOBox="true" Value="0.86">
+          <Pad Id="E3TRYELkbmdQWE37HL1EJj" Comment="H" Bounds="500,112,35,15" ShowValueBox="true" isIOBox="true" Value="0.86">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KZLi35zti7PN4qGUqyBAVU" Comment="S" Bounds="518,135,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
+          <Pad Id="KZLi35zti7PN4qGUqyBAVU" Comment="S" Bounds="520,135,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CgAKsoLUhC8LD9KoPGl9MH" Comment="L" Bounds="538,156,35,15" ShowValueBox="true" isIOBox="true" Value="0.64">
+          <Pad Id="CgAKsoLUhC8LD9KoPGl9MH" Comment="L" Bounds="540,156,35,15" ShowValueBox="true" isIOBox="true" Value="0.64">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="626,199,65,19" Id="TTW60yWnhs2Ldl1DAIf3A2">
+          <Node Bounds="628,199,65,19" Id="TTW60yWnhs2Ldl1DAIf3A2">
             <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll" OverloadStrategy="AllPinsThatAreNotCommon">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
@@ -147,22 +150,22 @@
             <Pin Id="LJ3NLLqk1piOWtyqlEtkQb" Name="Alpha" Kind="InputPin" />
             <Pin Id="CMVVkq107OILNeQ5RJxDG5" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="VvSmqQY7svTNFjZdnsC1jq" Comment="Y" Bounds="648,155,35,15" ShowValueBox="true" isIOBox="true" Value="0.49">
+          <Pad Id="VvSmqQY7svTNFjZdnsC1jq" Comment="Y" Bounds="650,155,35,15" ShowValueBox="true" isIOBox="true" Value="0.49">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="U5nuXLFveChM4KIYAE420k" Comment="" Bounds="628,125,35,15" ShowValueBox="true" isIOBox="true" Value="0.32">
+          <Pad Id="U5nuXLFveChM4KIYAE420k" Comment="" Bounds="630,125,35,15" ShowValueBox="true" isIOBox="true" Value="0.32">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JcwNxNZ4ujiPRYFKeXGb2E" Comment="Z" Bounds="668,179,35,15" ShowValueBox="true" isIOBox="true" Value="0.29">
+          <Pad Id="JcwNxNZ4ujiPRYFKeXGb2E" Comment="Z" Bounds="670,179,35,15" ShowValueBox="true" isIOBox="true" Value="0.29">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="755,199,69,19" Id="UpR1hVkLr4DL1YVr036hEo">
+          <Node Bounds="758,199,69,19" Id="UpR1hVkLr4DL1YVr036hEo">
             <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll" OverloadStrategy="AllPinsThatAreNotCommon">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
@@ -177,17 +180,17 @@
             <Pin Id="Af1eIog9bHNOF7SmAA4o7l" Name="Alpha" Kind="InputPin" />
             <Pin Id="Pq3aYTF74eKLgrPQMBMNHk" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="IJgLUgiPl37PIrzrrjmtL4" Comment="Jz" Bounds="757,128,35,15" ShowValueBox="true" isIOBox="true" Value="0.36">
+          <Pad Id="IJgLUgiPl37PIrzrrjmtL4" Comment="Jz" Bounds="760,128,35,15" ShowValueBox="true" isIOBox="true" Value="0.36">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AudP9JMmUTwQW0JqALZR3q" Comment="Cz" Bounds="778,156,35,15" ShowValueBox="true" isIOBox="true" Value="0.38">
+          <Pad Id="AudP9JMmUTwQW0JqALZR3q" Comment="Cz" Bounds="781,156,35,15" ShowValueBox="true" isIOBox="true" Value="0.38">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="EnNS0SiDSh7L467UmJWiiF" Comment="Hz" Bounds="800,179,35,15" ShowValueBox="true" isIOBox="true" Value="0.27">
+          <Pad Id="EnNS0SiDSh7L467UmJWiiF" Comment="Hz" Bounds="803,179,35,15" ShowValueBox="true" isIOBox="true" Value="0.27">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -259,7 +262,7 @@
             <Pin Id="Dcm1FPpsbgJLHCIJlEKji4" Name="Result" Kind="OutputPin" />
           </Node>
           <Pad Id="QRNYcGzeiRpPUyuqmWnMiI" Comment="" Bounds="819,540,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="ELzs8c5ySB8NlTAlTtGiTm" Comment="Alpha" Bounds="559,179,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="ELzs8c5ySB8NlTAlTtGiTm" Comment="Alpha" Bounds="561,179,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -267,7 +270,7 @@
           <Overlay Id="DrvL3HOto5BMuQTiNFh4HP" Name="Properties" Bounds="404,368,585,309">
             <p:ColorIndex p:Type="Int32">9</p:ColorIndex>
           </Overlay>
-          <Pad Id="JvCBn4QG0SRNK6gSiohcxs" Comment="RGBA" Bounds="1051,558,146,114" ShowValueBox="true" isIOBox="true" Value="0, 0.12959953, 0.8100002, 1">
+          <Pad Id="JvCBn4QG0SRNK6gSiohcxs" Comment="RGBA" Bounds="1051,555,146,114" ShowValueBox="true" isIOBox="true" Value="0, 0.12959953, 0.8100002, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -383,7 +386,7 @@
           <Overlay Id="UgrxnlspKACMI3XDEF1W2V" Name="To and from Unicolour" Bounds="76,367,286,423">
             <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
           </Overlay>
-          <Pad Id="SYzTo5azwRCM7q21Hj9ez2" Bounds="1040,131,148,40" ShowValueBox="true" isIOBox="true" Value="Unicolour">
+          <Pad Id="SYzTo5azwRCM7q21Hj9ez2" Bounds="96,893,148,40" ShowValueBox="true" isIOBox="true" Value="Unicolour">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -393,7 +396,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="ThhYfd8J3odPozbMXwwsUr" Bounds="1037,184,356,117" ShowValueBox="true" isIOBox="true" Value="Unicolour is a set of utilities for working with colour:&#xD;&#xA;&#xD;&#xA;Colour space conversion&#xD;&#xA;Colour interpolation&#xD;&#xA;Colour comparison&#xD;&#xA;Colour properties">
+          <Pad Id="ThhYfd8J3odPozbMXwwsUr" Bounds="93,946,356,117" ShowValueBox="true" isIOBox="true" Value="Unicolour is a set of utilities for working with colour:&#xD;&#xA;&#xD;&#xA;Colour space conversion&#xD;&#xA;Colour interpolation&#xD;&#xA;Colour comparison&#xD;&#xA;Colour properties">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -403,7 +406,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="N0L8nTCCfNxNdgb83Mgs1B" Bounds="1038,311,158,19" ShowValueBox="true" isIOBox="true" Value="A wrapping of Unicolour">
+          <Pad Id="N0L8nTCCfNxNdgb83Mgs1B" Bounds="94,1073,158,19" ShowValueBox="true" isIOBox="true" Value="A wrapping of Unicolour">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -412,7 +415,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RGmNgxDPTciPp12KQJtalS" Bounds="1040,342,253,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/waacton/Unicolour">
+          <Pad Id="RGmNgxDPTciPp12KQJtalS" Bounds="96,1104,253,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/waacton/Unicolour">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -421,10 +424,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="K3La1pRhI9yOnMzHfYXTWG" Name="Creating Unicolours" Bounds="180,55,745,193">
+          <Overlay Id="K3La1pRhI9yOnMzHfYXTWG" Name="Creating Unicolours" Bounds="180,55,1091,193">
             <p:ColorIndex p:Type="Int32">3</p:ColorIndex>
           </Overlay>
-          <Pad Id="MdnOODfZxmMMNbQmehn6ei" Comment="" Bounds="581,324,24,13" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MdnOODfZxmMMNbQmehn6ei" Comment="" Bounds="579,339,24,13" ShowValueBox="true" isIOBox="true" />
           <Pad Id="Kl8ZToy7EG9P0lVuoX3avd" Comment="" Bounds="785,700,24,13" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="110,407,53,19" Id="U6Ql1K7CL1kLXBK15Cef0m">
             <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
@@ -474,7 +477,7 @@
             <Pin Id="Oj7SpcywB5SMDKGD3JDf24" Name="Unicolour" Kind="InputPin" />
             <Pin Id="NBzqqG3jBI1Osjp87PC3P4" Name="RGBA" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1049,685,64,19" Id="TNLQivaBTToPWnkOC7nozu">
+          <Node Bounds="1049,682,64,19" Id="TNLQivaBTToPWnkOC7nozu">
             <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromRGBA" />
@@ -482,6 +485,100 @@
             <Pin Id="PNMiOyhCZClLuP3tELDNkS" Name="RGBA" Kind="InputPin" />
             <Pin Id="UV5NFA6GWsTOUJO0UVzv5g" Name="Unicolour" Kind="OutputPin" />
           </Node>
+          <Node Bounds="887,205,65,19" Id="K8kFd9Pz7ozM8y2myqzaev">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Unicolour" LastDependency="VL.Unicolour.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Unicolour" />
+              <CategoryReference Kind="4026531840" Name="Unicolour" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="Unicolour" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="OperationCallFlag" Name="FromXyz" />
+              <PinReference Kind="InputPin" Name="X" />
+              <PinReference Kind="InputPin" Name="Y" />
+              <PinReference Kind="InputPin" Name="Z" />
+            </p:NodeReference>
+            <Pin Id="LZQ9OeHGQSwMDzLIigIUHV" Name="X" Kind="InputPin" />
+            <Pin Id="CkhKOA0ckonMGyYeZZBpGL" Name="Y" Kind="InputPin" />
+            <Pin Id="Fz5wSw6iCl3LvEHnCCd1SA" Name="Z" Kind="InputPin" />
+            <Pin Id="HN4GrxFh6WeNcbpMVSZG6E" Name="Alpha" Kind="InputPin" />
+            <Pin Id="RekJyd6wwc8MD0khF54Mqj" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1017,209,65,19" Id="AutbAY6rLV9QHOLwIW0WgG">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Unicolour" LastDependency="VL.Unicolour.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Unicolour" />
+              <Choice Kind="OperationCallFlag" Name="FromLab" />
+              <PinReference Kind="InputPin" Name="L" />
+              <PinReference Kind="InputPin" Name="A" />
+              <PinReference Kind="InputPin" Name="B" />
+            </p:NodeReference>
+            <Pin Id="T8ozFSQciZWNLrAuCLS4Hd" Name="L" Kind="InputPin" />
+            <Pin Id="GGF8SHG25dPORORhfmr2x0" Name="A" Kind="InputPin" />
+            <Pin Id="MHGIioEsbSdOnamCmXiPvC" Name="B" Kind="InputPin" />
+            <Pin Id="P8nJZ4wLZasOFzulcaxIRm" Name="Alpha" Kind="InputPin" />
+            <Pin Id="GPrvDtJVcFUP3NDwU8HUr3" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1147,212,65,19" Id="HZBeUV80OvqMWhUlmMrqmr">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour.Unicolour" LastDependency="VL.Unicolour.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Unicolour" />
+              <Choice Kind="OperationCallFlag" Name="FromIctcp" />
+              <PinReference Kind="InputPin" Name="I" />
+              <PinReference Kind="InputPin" Name="Ct" />
+              <PinReference Kind="InputPin" Name="Cp" />
+            </p:NodeReference>
+            <Pin Id="Si1qMtNi52qM3f6SEx2BYH" Name="I" Kind="InputPin" />
+            <Pin Id="IgqoIoN2dCxNTT1fdSLa5T" Name="Ct" Kind="InputPin" />
+            <Pin Id="E144sPZqIX9LMBefopenec" Name="Cp" Kind="InputPin" />
+            <Pin Id="UpW8YfG3nQCNO6PBwghjl6" Name="Alpha" Kind="InputPin" />
+            <Pin Id="TIgWSHGYVPZPidYVdimX2k" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="D7HVlJxd50EPIBBEjXSWsQ" Comment="X" Bounds="889,121,41,16" ShowValueBox="true" isIOBox="true" Value="0.14">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="H2UgUelVhYTLk5vuaxJ5Ka" Comment="Y" Bounds="909,149,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="GglF5dLriumNIkykHpMRrk" Comment="Z" Bounds="929,168,35,15" ShowValueBox="true" isIOBox="true" Value="0.92">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Hr0aU5MJmqkL1mMgQXrxsS" Comment="L" Bounds="1019,119,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="SurovQirKXDOkzJ2PTvv8O" Comment="A" Bounds="1039,141,35,15" ShowValueBox="true" isIOBox="true" Value="0.18">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="V3ttl1AbnN5QC1dNW0TJCr" Comment="B" Bounds="1059,164,35,15" ShowValueBox="true" isIOBox="true" Value="0.13">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="JwsKrl2eq59P7kaClnHQaE" Comment="I" Bounds="1149,126,35,15" ShowValueBox="true" isIOBox="true" Value="0.05">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="P8Cd5dAutkpNfwafXygws2" Comment="Ct" Bounds="1169,149,35,15" ShowValueBox="true" isIOBox="true" Value="0.16">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="FkMHTn0Yq0nQF7neWDEiQF" Comment="Cp" Bounds="1189,169,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="AqHom67czm5NSTJMdExtAI" Comment="" Bounds="156,315,487,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <ProcessDefinition Id="K7TM8hkyWeYLm9fvrmNrOS">
           <Fragment Id="OHwRV5HTbqzNjM45lD6aKv" Patch="E9tKsB2r8zcP9lRebI8CZD" Enabled="true" />
@@ -558,6 +655,19 @@
         <Link Id="L86isY52mT5QAtbaaRD4Ja" Ids="UV5NFA6GWsTOUJO0UVzv5g,N1Yy0tHkpYeMcwGQKKs0D7" />
         <Link Id="NfKhnxBYVSqLi4neWj4FuU" Ids="UV5NFA6GWsTOUJO0UVzv5g,LekLbyxL7wLMfWzRMy44un" />
         <Link Id="ODyEbBEKz9eNYTrqWddnhe" Ids="UV5NFA6GWsTOUJO0UVzv5g,H0e43nQiF7fPv48iAy3br7" />
+        <Link Id="FmNh5piDx5UMcicqLEm8f7" Ids="RekJyd6wwc8MD0khF54Mqj,QIPYMYwIB7yO1wzQZXjLph" />
+        <Link Id="NlWZociYfnBOhKKsRFZhf2" Ids="GPrvDtJVcFUP3NDwU8HUr3,ONToN7xmlpIP9WSAwqm1pu" />
+        <Link Id="C1aH5TIJOnHQNi7FD665Vc" Ids="TIgWSHGYVPZPidYVdimX2k,Qjp7fmTwgnfQN8a0edpnuT" />
+        <Link Id="T5vS3ZtzUp1OeOvvyQv3xT" Ids="D7HVlJxd50EPIBBEjXSWsQ,LZQ9OeHGQSwMDzLIigIUHV" />
+        <Link Id="PD5gLPwSFYYNYfTQrWuitj" Ids="H2UgUelVhYTLk5vuaxJ5Ka,CkhKOA0ckonMGyYeZZBpGL" />
+        <Link Id="QipzwdQGzb9MaLiavGeW9z" Ids="GglF5dLriumNIkykHpMRrk,Fz5wSw6iCl3LvEHnCCd1SA" />
+        <Link Id="CaE80Ul5Sc0ONW5Feg8ntr" Ids="Hr0aU5MJmqkL1mMgQXrxsS,T8ozFSQciZWNLrAuCLS4Hd" />
+        <Link Id="LKjSOWP60S2PSK72qYSsiG" Ids="SurovQirKXDOkzJ2PTvv8O,GGF8SHG25dPORORhfmr2x0" />
+        <Link Id="Gbt1UKm6BeuMsxtP5AIjvB" Ids="V3ttl1AbnN5QC1dNW0TJCr,MHGIioEsbSdOnamCmXiPvC" />
+        <Link Id="B4owKdhLy9oOaFjwjPzIh7" Ids="JwsKrl2eq59P7kaClnHQaE,Si1qMtNi52qM3f6SEx2BYH" />
+        <Link Id="GNDbmybRw4SQMn2ZhA3YqZ" Ids="P8Cd5dAutkpNfwafXygws2,IgqoIoN2dCxNTT1fdSLa5T" />
+        <Link Id="ITWKxLly4TmN65RgStEP7S" Ids="FkMHTn0Yq0nQF7neWDEiQF,E144sPZqIX9LMBefopenec" />
+        <Link Id="CePSACKk8pnQO7Jwpifi8i" Ids="TMs10ZO85MYMSvAZkMrQjB,AqHom67czm5NSTJMdExtAI" />
       </Patch>
     </Node>
   </Patch>
