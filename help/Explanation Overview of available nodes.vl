@@ -52,186 +52,8 @@
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <!--
-
-    ************************ FromUnicolor ************************
-
--->
-          <Node Name="FromUnicolor" Bounds="1078,446" Id="LtqH5u8fCSWMqN5c7B3bfL">
-            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-              <Choice Kind="ContainerDefinition" Name="Process" />
-            </p:NodeReference>
-            <Patch Id="HItkfOyHPuDNxX8nOYtl8p">
-              <Canvas Id="DP1KDL18ZtxNhRyi3wxyY5" CanvasType="Group">
-                <Node Bounds="137,284,51,26" Id="F2Z4hnXv9UhLkSGRw4Kp6e">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" NeedsToBeDirectParent="true">
-                      <p:OuterCategoryReference Kind="AssemblyCategory" Name="Unicolour" NeedsToBeDirectParent="true" />
-                    </CategoryReference>
-                    <Choice Kind="OperationCallFlag" Name="Rgb" />
-                  </p:NodeReference>
-                  <Pin Id="U4nOosZBMIaPHE7fVpW3hi" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="BdH3ILUmJtHQGqERUrn2t9" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="PYYpVA6utn0QUUj87gs2RR" Name="Rgb" Kind="OutputPin" />
-                </Node>
-                <ControlPoint Id="VI7KTYMI0qJPdWAbCKCM1r" Bounds="139,170" />
-                <Node Bounds="210,396,30,26" Id="Ql3Ok52RHGAN5opMOiqajl">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Rgb" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Rgb" />
-                    <Choice Kind="OperationCallFlag" Name="G" />
-                  </p:NodeReference>
-                  <Pin Id="NRTvRc7pSWENTLxCWMT13p" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="VRlioQC3WncP5zvjaGBeKs" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="UCEmLPglFSbOTTge4N2CW0" Name="G" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="280,398,30,26" Id="EOVI9GBZdMqP1yJ2wolcfF">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Rgb" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Rgb" />
-                    <Choice Kind="OperationCallFlag" Name="B" />
-                  </p:NodeReference>
-                  <Pin Id="D5h2duHcoChNL6p09AoChi" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="PrJg9KYwi88LQys0RaYiR4" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="RwBxtR17C2YLzOvYijXmpl" Name="B" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="139,394,30,26" Id="SM9hVrVbjUQMzKpnXPHKN6">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Rgb" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Rgb" NeedsToBeDirectParent="true" />
-                    <Choice Kind="OperationCallFlag" Name="R" />
-                  </p:NodeReference>
-                  <Pin Id="KWTuoyeTTtMNvqDqfDNBFP" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="EKOJIeuK3yAP5MFOyVwFSG" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="Pl9kP9VYPR5Map4iSQ6MSk" Name="R" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="348,366,51,26" Id="BgkYRCwYCIPMFMWbEOtK0n">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
-                    <Choice Kind="OperationCallFlag" Name="Alpha" />
-                  </p:NodeReference>
-                  <Pin Id="MMG7v9nyPvlNQ9g6e4VR5O" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="LVL6RjVGfDXMcFBwIDcKWY" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="Glh1OJXHeC5PNe8imWtMnk" Name="Alpha" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="348,403,37,26" Id="ONQbgy04ZlpN3v0Vo4ZgwJ">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Alpha" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Alpha" />
-                    <Choice Kind="OperationCallFlag" Name="A" />
-                  </p:NodeReference>
-                  <Pin Id="BmHwzgV5C1jPC6wRnkR4TH" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="FDMuf5BAIKSMn06UIyX6kN" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="PYGXBRtDxuKPMZuvWxf0xT" Name="A" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="139,531,214,19" Id="FA6WMOeLgdAPDSvSblBNCH">
-                  <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="RGBA (Join)" />
-                  </p:NodeReference>
-                  <Pin Id="Ci2jpTlMGHuObDGwsgNuzj" Name="Red" Kind="InputPin" />
-                  <Pin Id="QUmhwIoIyPXQDnVDzqDAst" Name="Green" Kind="InputPin" />
-                  <Pin Id="CS8el685TUzOaca7283Tel" Name="Blue" Kind="InputPin" />
-                  <Pin Id="MarBXwz8pIpM2RNPY9O54g" Name="Alpha" Kind="InputPin" />
-                  <Pin Id="KDZxPrtgCzvNH25kbxX0Py" Name="Result" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="139,456,62,19" Id="R5uC7XDVwt3NeBLwGeyHip">
-                  <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="ToFloat32" />
-                  </p:NodeReference>
-                  <Pin Id="EOXjGn1P57lOV85JL1B60b" Name="Input" Kind="InputPin" />
-                  <Pin Id="NDTmrVyBNUFP6pa6vD47QR" Name="Result" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="210,456,62,19" Id="K1YkShJreNXLs3eSyaCFx2">
-                  <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="ToFloat32" />
-                  </p:NodeReference>
-                  <Pin Id="IPnBG7jMMjuO9AIy82nrPW" Name="Input" Kind="InputPin" />
-                  <Pin Id="R3ObtVOUMsROaY37rJjfK7" Name="Result" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="280,456,62,19" Id="HJ7uoTup8EuMJBJCXz96hh">
-                  <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="ToFloat32" />
-                  </p:NodeReference>
-                  <Pin Id="ITvXrCLAQWJLUeXkteTqXu" Name="Input" Kind="InputPin" />
-                  <Pin Id="SEmPAGySs2xMzFg8LJzclG" Name="Result" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="348,456,62,19" Id="M2km9rmIy7zMiLUns1dKzN">
-                  <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="ToFloat32" />
-                  </p:NodeReference>
-                  <Pin Id="AYDFDj0XjidOnqz3QfCTfL" Name="Input" Kind="InputPin" />
-                  <Pin Id="HuVhtWIU5CBM2EYm2HfsA9" Name="Result" Kind="OutputPin" />
-                </Node>
-                <ControlPoint Id="AY0KmmxV8ySPh3ifB86ZDM" Bounds="141,607,149,0" />
-                <ControlPoint Id="P2YUP83SULqMYiJXMCF3Mz" Bounds="255,359" />
-                <Pad Id="Kb3WsqhJPvbQOgCPEtBS36" Comment="" Bounds="337,601,136,15" ShowValueBox="true" isIOBox="true" />
-                <Pad Id="TiHML3OPmOFM3ZGZFzodLw" Bounds="139,201">
-                  <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="TypeFlag" Name="Unicolour" />
-                  </p:TypeAnnotation>
-                </Pad>
-                <Node Bounds="137,241,61,19" Id="EsoZjQWMYnwNWYb6M6zlv6">
-                  <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="AvoidNaN" />
-                  </p:NodeReference>
-                  <Pin Id="VP9TDgpfS6dLWbPRptkRL4" Name="Input" Kind="InputPin" />
-                  <Pin Id="Pobc1CB7j72PyNXsnAl3jV" Name="Default" Kind="InputPin" />
-                  <Pin Id="P7P7fDExMOZP653hCT7D5V" Name="Output" Kind="OutputPin" />
-                </Node>
-              </Canvas>
-              <ProcessDefinition Id="CsyYPt0bXJvNvJy4Arzhmk">
-                <Fragment Id="NfpmCzcD0PRQUYAm2oVgxf" Patch="KX4rs6XfRNiPfChJwZdJhu" Enabled="true" />
-                <Fragment Id="NcxsTGH30PhNViNN67UnhT" Patch="IAoCeSKBEWRPIRy7EesguF" Enabled="true" />
-              </ProcessDefinition>
-              <Link Id="HCXLx9voi1fP4lKMqCHOjf" Ids="MXNowQmpScgNRyBYmqOynT,VI7KTYMI0qJPdWAbCKCM1r" IsHidden="true" />
-              <Link Id="Aq6kgUi27iwMf4DMhwY6w9" Ids="Glh1OJXHeC5PNe8imWtMnk,BmHwzgV5C1jPC6wRnkR4TH" />
-              <Link Id="FbEdE7RbGw6NbPYv0ZnXYt" Ids="PYYpVA6utn0QUUj87gs2RR,KWTuoyeTTtMNvqDqfDNBFP" />
-              <Link Id="DG8mrfMjs14MnUhEZx1oZv" Ids="PYYpVA6utn0QUUj87gs2RR,NRTvRc7pSWENTLxCWMT13p" />
-              <Link Id="Olm5U6CcSCILlvdJKPoiea" Ids="PYYpVA6utn0QUUj87gs2RR,P2YUP83SULqMYiJXMCF3Mz,D5h2duHcoChNL6p09AoChi" />
-              <Link Id="E9wEccT86zxNLBPKJ1exmt" Ids="Pl9kP9VYPR5Map4iSQ6MSk,EOXjGn1P57lOV85JL1B60b" />
-              <Link Id="MVSDtUsRyAOMPtHCihFwUW" Ids="UCEmLPglFSbOTTge4N2CW0,IPnBG7jMMjuO9AIy82nrPW" />
-              <Link Id="FtAkIho0h94P0yyWZNVyYo" Ids="RwBxtR17C2YLzOvYijXmpl,ITvXrCLAQWJLUeXkteTqXu" />
-              <Link Id="Ahe0JWs9aGTPEJMT45vioV" Ids="PYGXBRtDxuKPMZuvWxf0xT,AYDFDj0XjidOnqz3QfCTfL" />
-              <Link Id="KTx5eQHULZ7PRtaya5Fxb7" Ids="NDTmrVyBNUFP6pa6vD47QR,Ci2jpTlMGHuObDGwsgNuzj" />
-              <Link Id="AVsOzBafc4GPTyNypZh8Bk" Ids="R3ObtVOUMsROaY37rJjfK7,QUmhwIoIyPXQDnVDzqDAst" />
-              <Link Id="HTRlreBEJC7Lnxgj5X8dGo" Ids="SEmPAGySs2xMzFg8LJzclG,CS8el685TUzOaca7283Tel" />
-              <Link Id="GOS0jWFIpbFNJz0e1pD8d6" Ids="HuVhtWIU5CBM2EYm2HfsA9,MarBXwz8pIpM2RNPY9O54g" />
-              <Link Id="SKQuixCP4eYMXNgjPgKJVG" Ids="AY0KmmxV8ySPh3ifB86ZDM,Ex3ULyXOILEPW2VdUCQFmL" IsHidden="true" />
-              <Link Id="IY3n6vPwZ3EL2aHtWW9eGu" Ids="KDZxPrtgCzvNH25kbxX0Py,AY0KmmxV8ySPh3ifB86ZDM" />
-              <Link Id="MluyRIvYH86Na4LPbhS6DH" Ids="KDZxPrtgCzvNH25kbxX0Py,Kb3WsqhJPvbQOgCPEtBS36" />
-              <Link Id="QxEC4Yu867ZQYPqploklKj" Ids="VI7KTYMI0qJPdWAbCKCM1r,TiHML3OPmOFM3ZGZFzodLw" />
-              <Patch Id="KX4rs6XfRNiPfChJwZdJhu" Name="Create" />
-              <Patch Id="IAoCeSKBEWRPIRy7EesguF" Name="Update">
-                <Pin Id="MXNowQmpScgNRyBYmqOynT" Name="Unicolour" Kind="InputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="Wacton.Unicolour.dll">
-                    <Choice Kind="TypeFlag" Name="Unicolour" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="Ex3ULyXOILEPW2VdUCQFmL" Name="RGBA" Kind="OutputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="TypeFlag" Name="RGBA" />
-                  </p:TypeAnnotation>
-                </Pin>
-              </Patch>
-              <Link Id="LSh5Nh5xP7hPy98NhLbSAi" Ids="TiHML3OPmOFM3ZGZFzodLw,VP9TDgpfS6dLWbPRptkRL4" />
-              <Link Id="LmgnOMYnPylMrVc37SVIW1" Ids="P7P7fDExMOZP653hCT7D5V,U4nOosZBMIaPHE7fVpW3hi" />
-              <Link Id="TZIslJQiDZXM0GjgEwbwTk" Ids="P7P7fDExMOZP653hCT7D5V,MMG7v9nyPvlNQ9g6e4VR5O" />
-            </Patch>
-          </Node>
           <Node Bounds="110,413,102,19" Id="DGn97GYolk0NMyVRbZeay3">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -240,77 +62,8 @@
             <Pin Id="B3IAR1Sd2jgOYlYahasPru" Name="RGBA" Kind="OutputPin" />
           </Node>
           <Pad Id="Nv4wLLsJXZFOF8eJ4YxeRN" Comment="RGBA" Bounds="112,456,141,102" ShowValueBox="true" isIOBox="true" />
-          <!--
-
-    ************************ ToUnicolour ************************
-
--->
-          <Node Name="ToUnicolour" Bounds="1078,487" Id="KHkmXhA6vsXK91G2VRXXDh">
-            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-              <Choice Kind="ContainerDefinition" Name="Process" />
-            </p:NodeReference>
-            <Patch Id="ADmeTkgU7TpL4M2a2sWkeO">
-              <Canvas Id="LPKU3iEsAL7LA0FdjPny5u" CanvasType="Group">
-                <Node Bounds="157,327,284,19" Id="BdjgJ1gcM28L1mjlNJIPlc">
-                  <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll" OverloadStrategy="AllPinsThatAreNotCommon">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
-                    <Choice Kind="OperationCallFlag" Name="FromRgb" />
-                    <PinReference Kind="InputPin" Name="R" />
-                    <PinReference Kind="InputPin" Name="G" />
-                    <PinReference Kind="InputPin" Name="B" />
-                  </p:NodeReference>
-                  <Pin Id="MFbnHfjXm5COrir2NI8DeA" Name="R" Kind="InputPin" />
-                  <Pin Id="SMKRW6DtVF1OINEvcpAFEz" Name="G" Kind="InputPin" />
-                  <Pin Id="P9WRKfZYKZaPCMCN5fugF3" Name="B" Kind="InputPin" />
-                  <Pin Id="HWXptH0QyklOWONYgCsywA" Name="Alpha" Kind="InputPin" />
-                  <Pin Id="DAbn1vg8T95PD9dTKsSkeD" Name="Result" Kind="OutputPin" />
-                </Node>
-                <Pad Id="JXbmLXDJEBrLeVx9cfqXfi" Bounds="159,249,150,15" ShowValueBox="true" isIOBox="true" Value="0.0077999234, 0.7800001, 0.5020076, 1">
-                  <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
-                  </p:TypeAnnotation>
-                </Pad>
-                <Node Bounds="157,276,285,19" Id="C7fQThmwCoWLGtAwHJU4xh">
-                  <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="RGBA (Split)" />
-                  </p:NodeReference>
-                  <Pin Id="El1IBou0i2qObc5nLQcLo7" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="PNL8h2BWIRoLiuMOYwxZmX" Name="Red" Kind="OutputPin" />
-                  <Pin Id="AuQePf5gO4WLraeCenpRbK" Name="Green" Kind="OutputPin" />
-                  <Pin Id="RPfolq2gT4JO69sZcCL81f" Name="Blue" Kind="OutputPin" />
-                  <Pin Id="Qa1Hb1v6NR8MMnEPCgGHbF" Name="Alpha" Kind="OutputPin" />
-                </Node>
-                <ControlPoint Id="M3ev3WgfC0ZMvcvuTR1HkT" Bounds="159,207" />
-                <ControlPoint Id="JZaLa5orZ9ROaMKxR168Ub" Bounds="159,377" />
-              </Canvas>
-              <Patch Id="Uil3sDGA4xQOH12mTa2zYs" Name="Create" />
-              <Patch Id="R6tbuoCPP3TQCDEDAbnAzX" Name="Update">
-                <Pin Id="UvA3rWDKjR7NggAUXFXSlX" Name="RGBA" Kind="InputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="TypeFlag" Name="RGBA" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="AQ1W7az3tPAPO66rjCpD9i" Name="Unicolour" Kind="OutputPin" />
-              </Patch>
-              <ProcessDefinition Id="LizMYmPDtWoLQEIFJu8e0r">
-                <Fragment Id="U0LZqIWCdWpOP1wvjLZNTj" Patch="Uil3sDGA4xQOH12mTa2zYs" Enabled="true" />
-                <Fragment Id="ELcyr95ej1nNWLzmUU7Nnm" Patch="R6tbuoCPP3TQCDEDAbnAzX" Enabled="true" />
-              </ProcessDefinition>
-              <Link Id="L9f64K9lJTeMzaMtB2XFTj" Ids="UvA3rWDKjR7NggAUXFXSlX,M3ev3WgfC0ZMvcvuTR1HkT" IsHidden="true" />
-              <Link Id="IXssztEyUI1PIjbx0eOwL3" Ids="JZaLa5orZ9ROaMKxR168Ub,AQ1W7az3tPAPO66rjCpD9i" IsHidden="true" />
-              <Link Id="HihY8gkRpD3Pl3zZWNtLO8" Ids="DAbn1vg8T95PD9dTKsSkeD,JZaLa5orZ9ROaMKxR168Ub" />
-              <Link Id="QwvbVjw13bpO95AL0zXYOv" Ids="JXbmLXDJEBrLeVx9cfqXfi,El1IBou0i2qObc5nLQcLo7" />
-              <Link Id="ONsBKFZO2pDOgruOdv8MJK" Ids="M3ev3WgfC0ZMvcvuTR1HkT,JXbmLXDJEBrLeVx9cfqXfi" />
-              <Link Id="L6Gpu71DE3HPROxFS3SY1Y" Ids="Qa1Hb1v6NR8MMnEPCgGHbF,HWXptH0QyklOWONYgCsywA" />
-              <Link Id="TNTNxOjqDFqOKONEKfQjjV" Ids="RPfolq2gT4JO69sZcCL81f,P9WRKfZYKZaPCMCN5fugF3" />
-              <Link Id="T5ea5Cj4OTMNrKvBnDGdVT" Ids="AuQePf5gO4WLraeCenpRbK,SMKRW6DtVF1OINEvcpAFEz" />
-              <Link Id="VSKx2CwRJkvOOnKsmHPG3t" Ids="PNL8h2BWIRoLiuMOYwxZmX,MFbnHfjXm5COrir2NI8DeA" />
-            </Patch>
-          </Node>
           <Node Bounds="110,557,72,19" Id="GxhzoDAUhmLPIwlgV8LUpr">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ToUnicolour" />
             </p:NodeReference>
@@ -319,7 +72,7 @@
             <Pin Id="QyHR63YfRy7QFjL49nSwHa" Name="Unicolour" Kind="OutputPin" />
           </Node>
           <Node Bounds="110,595,102,19" Id="AAwkR8xgS2XP9oTO6b797o">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -557,7 +310,7 @@
             <Pin Id="NL40CBEVzSnLtzjMvCJOyN" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1049,691,72,19" Id="K3WXRdTPjH3LDMRSfhDPbw">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ToUnicolour" />
             </p:NodeReference>
@@ -566,7 +319,7 @@
             <Pin Id="MgsdXRiqn0eNWiM95gLSW0" Name="Unicolour" Kind="OutputPin" />
           </Node>
           <Node Bounds="941,944,102,19" Id="NVAYrzHrYWXLrZOUdUifOX">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -636,7 +389,7 @@
             <Pin Id="OfiNgq41StFMxFWm2EFQt1" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="729,944,102,19" Id="LkgiTi9iIkoMm3zrCJSLoW">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -659,7 +412,7 @@
             <Pin Id="RvipcTxLlDkPchCU2v5TRS" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1360,944,102,19" Id="E1f3k1QlZI2P7iA53fTmVE">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
@@ -669,7 +422,7 @@
           </Node>
           <Pad Id="RP4dSWaDzsNMeEw9yZGzHL" Comment="RGBA" Bounds="1362,994,146,119" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1152,944,102,19" Id="Alp5zFKILEcLyVcGtBnAsi">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation Overview of available nodes.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
             </p:NodeReference>
