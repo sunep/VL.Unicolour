@@ -55,7 +55,7 @@
           <Node Bounds="110,413,102,19" Id="DGn97GYolk0NMyVRbZeay3">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
+              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="IGrhhWQJq1ZNTrgmChx4Md" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="C3t7onFy4AAPa8yh49Ggn3" Name="Unicolour" Kind="InputPin" />
@@ -65,7 +65,7 @@
           <Node Bounds="110,557,72,19" Id="GxhzoDAUhmLPIwlgV8LUpr">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ToUnicolour" />
+              <Choice Kind="ProcessAppFlag" Name="FromRGBA" />
             </p:NodeReference>
             <Pin Id="DayElmyCVSDPRInRjP0lGC" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NJToWqXlOW2LpDPA5f2ydG" Name="RGBA" Kind="InputPin" />
@@ -74,7 +74,7 @@
           <Node Bounds="110,595,102,19" Id="AAwkR8xgS2XP9oTO6b797o">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
+              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="SfQXdrH1EEfNu0la9urSiR" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="DVFcW1ksyLZPZBocPLY34r" Name="Unicolour" Kind="InputPin" />
@@ -312,7 +312,7 @@
           <Node Bounds="1049,691,72,19" Id="K3WXRdTPjH3LDMRSfhDPbw">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ToUnicolour" />
+              <Choice Kind="ProcessAppFlag" Name="FromRGBA" />
             </p:NodeReference>
             <Pin Id="HEqLSSyrWq9OGg6Ypv7Lp7" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Hx2eaZI9l82Mgq91wQUIVv" Name="RGBA" Kind="InputPin" />
@@ -321,7 +321,7 @@
           <Node Bounds="941,944,102,19" Id="NVAYrzHrYWXLrZOUdUifOX">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
+              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="On0493VtrmZLbcfWkHYcnf" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JWgp9JWQshhM8MBbKIHW5n" Name="Unicolour" Kind="InputPin" />
@@ -391,7 +391,7 @@
           <Node Bounds="729,944,102,19" Id="LkgiTi9iIkoMm3zrCJSLoW">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
+              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="RualKGgHewlMj29eauuUkH" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="LE4XF94UnXTMb8kYG4t7I5" Name="Unicolour" Kind="InputPin" />
@@ -414,7 +414,7 @@
           <Node Bounds="1360,944,102,19" Id="E1f3k1QlZI2P7iA53fTmVE">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
+              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="EeKJ1Br8IkBMxVpgMyX3Ix" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NgSeJXlAKagOcDhdqSJv5l" Name="Unicolour" Kind="InputPin" />
@@ -424,7 +424,7 @@
           <Node Bounds="1152,944,102,19" Id="Alp5zFKILEcLyVcGtBnAsi">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromUnicolor" />
+              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="Ix18tmqBlGlLNk4u4W0WOD" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="GtWc4JVA2VrOeUun6VEMV3" Name="Unicolour" Kind="InputPin" />
