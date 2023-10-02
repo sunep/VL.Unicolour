@@ -708,10 +708,10 @@
         </Node>
         <!--
 
-    ************************ ToRGB ************************
+    ************************ ToRGBA ************************
 
 -->
-        <Node Name="ToRGB" Bounds="107,522,393,476" Id="F9H4XhvqyeCOyGpLeLiVHS">
+        <Node Name="ToRGBA" Bounds="107,522,393,476" Id="F9H4XhvqyeCOyGpLeLiVHS">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
@@ -880,7 +880,7 @@
     ************************ FromRGBA ************************
 
 -->
-        <Node Name="FromRGBA" Bounds="540,520,311,205" Id="Gu12LsFN6qLM0Yhnye922Y">
+        <Node Name="FromRGBA" Bounds="542,520,309,205" Id="Gu12LsFN6qLM0Yhnye922Y">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
@@ -900,7 +900,7 @@
               <Pin Id="Ha2X9YQ1dPhOZ6kWvEnc4N" Name="Alpha" Kind="InputPin" />
               <Pin Id="ALDuQ1d6jzCO5orCrDoiZ3" Name="Result" Kind="OutputPin" />
             </Node>
-            <Pad Id="PBRtDkkLrUcMNM9C294yQO" Bounds="556,580,150,15" ShowValueBox="true" isIOBox="true" Value="0.0077999234, 0.7800001, 0.5020076, 1">
+            <Pad Id="PBRtDkkLrUcMNM9C294yQO" Bounds="605,582,171,15" ShowValueBox="true" isIOBox="true" Value="0.0077999234, 0.7800001, 0.5020076, 1">
               <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
               </p:TypeAnnotation>
@@ -927,12 +927,12 @@
             <Link Id="TaJSrWxIftWLl9Ehubvt7B" Ids="CBMaUGjrfTdNOH4lJyU9Lt,UMXmyWuOu3UNbSqFeV8VSE" IsHidden="true" />
             <Link Id="GX5nd3aOt3qMck35RVQDIP" Ids="K9BkCjw6GksLWEmdXMIzEo,M7eXnypwN11O0Z1Bco91ZU" IsHidden="true" />
             <Link Id="AFCEnDF4A3JPqlcirC1HN5" Ids="ALDuQ1d6jzCO5orCrDoiZ3,K9BkCjw6GksLWEmdXMIzEo" />
-            <Link Id="KHfvnw7KbqTOWNWgoqjq4D" Ids="PBRtDkkLrUcMNM9C294yQO,FQ2hUkLfiIYLHfZtzPJrcZ" />
             <Link Id="DS3av12wQIVMpTbNCs85eN" Ids="UMXmyWuOu3UNbSqFeV8VSE,PBRtDkkLrUcMNM9C294yQO" />
             <Link Id="ENE9F1cTdSwOOG4vE1J5fB" Ids="U10PuiFjU98LiNi9ZxYeOt,Ha2X9YQ1dPhOZ6kWvEnc4N" />
             <Link Id="KjlfG4oxYQTO1fdZXXZEPT" Ids="MOPgSZUJyAlNEVAzarrypn,NCQXNBqyflnMWHRHTU18l5" />
             <Link Id="GmSi93iKa8hM5W4hzW9H84" Ids="UK4PW3HHeetN38irAoTexz,E89ioINtwlsNCrdYg7kbhF" />
             <Link Id="EC1VV4csTUAN7EHCZZ2AoR" Ids="MP9hX0izS81LRruxK6eoky,ApETfYxIPQVPv9ogCaEQyg" />
+            <Link Id="EPO2r1bCYI7Ou4Oc3veVYD" Ids="UMXmyWuOu3UNbSqFeV8VSE,FQ2hUkLfiIYLHfZtzPJrcZ" />
           </Patch>
         </Node>
       </Canvas>

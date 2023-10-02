@@ -282,21 +282,11 @@
             <Pin Id="QpUFkc0A2uQNp7XwonYaSz" Name="Distance" Kind="InputPin" />
             <Pin Id="NL40CBEVzSnLtzjMvCJOyN" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1049,691,72,19" Id="K3WXRdTPjH3LDMRSfhDPbw">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
+          <Node Bounds="941,939,102,19" Id="NVAYrzHrYWXLrZOUdUifOX">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FromRGBA" />
+              <Choice Kind="OperationCallFlag" Name="ToRGBA" />
             </p:NodeReference>
-            <Pin Id="HEqLSSyrWq9OGg6Ypv7Lp7" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Hx2eaZI9l82Mgq91wQUIVv" Name="RGBA" Kind="InputPin" />
-            <Pin Id="MgsdXRiqn0eNWiM95gLSW0" Name="Unicolour" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="941,944,102,19" Id="NVAYrzHrYWXLrZOUdUifOX">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
-            </p:NodeReference>
-            <Pin Id="On0493VtrmZLbcfWkHYcnf" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JWgp9JWQshhM8MBbKIHW5n" Name="Unicolour" Kind="InputPin" />
             <Pin Id="Rcj7h4g8uTWPcIX4aBQeGw" Name="RGBA" Kind="OutputPin" />
           </Node>
@@ -361,15 +351,6 @@
             <Pin Id="UIDLygo5KmwOGikGmrwbnZ" Name="Distance" Kind="InputPin" />
             <Pin Id="OfiNgq41StFMxFWm2EFQt1" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="729,944,102,19" Id="LkgiTi9iIkoMm3zrCJSLoW">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
-            </p:NodeReference>
-            <Pin Id="RualKGgHewlMj29eauuUkH" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="LE4XF94UnXTMb8kYG4t7I5" Name="Unicolour" Kind="InputPin" />
-            <Pin Id="TvvXo1zXfOQP2UUuj7rG65" Name="RGBA" Kind="OutputPin" />
-          </Node>
           <Pad Id="EWv090MiBTzNAtjdsq3cR8" Comment="RGBA" Bounds="731,994,146,119" ShowValueBox="true" isIOBox="true" />
           <Overlay Id="DQX192pzioWMy76XQwUgjS" Name="Comparison" Bounds="410,749,291,157">
             <p:ColorIndex p:Type="Int32">9</p:ColorIndex>
@@ -384,25 +365,7 @@
             <Pin Id="OpwjoOLmHtNP4CwUqF6dMh" Name="Distance" Kind="InputPin" />
             <Pin Id="RvipcTxLlDkPchCU2v5TRS" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1360,944,102,19" Id="E1f3k1QlZI2P7iA53fTmVE">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
-            </p:NodeReference>
-            <Pin Id="EeKJ1Br8IkBMxVpgMyX3Ix" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="NgSeJXlAKagOcDhdqSJv5l" Name="Unicolour" Kind="InputPin" />
-            <Pin Id="QMHe9VLLT97O79LgJSXxZw" Name="RGBA" Kind="OutputPin" />
-          </Node>
           <Pad Id="RP4dSWaDzsNMeEw9yZGzHL" Comment="RGBA" Bounds="1362,994,146,119" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="1152,944,102,19" Id="Alp5zFKILEcLyVcGtBnAsi">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Unicolour.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ToRGBA" />
-            </p:NodeReference>
-            <Pin Id="Ix18tmqBlGlLNk4u4W0WOD" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="GtWc4JVA2VrOeUun6VEMV3" Name="Unicolour" Kind="InputPin" />
-            <Pin Id="Jp3iVZ4Gb3XMJDG2HUXF1H" Name="RGBA" Kind="OutputPin" />
-          </Node>
           <Pad Id="NSoS1NBVhsbL5HuP4EnWB8" Comment="RGBA" Bounds="1154,994,146,119" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1360,900,82,26" Id="J0sT6CPt1I9N0Pqq0FtMy2">
             <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Interpolation" LastDependency="Wacton.Unicolour.dll">
@@ -461,20 +424,20 @@
           <Overlay Id="K3La1pRhI9yOnMzHfYXTWG" Name="Creating Unicolours" Bounds="180,55,745,193">
             <p:ColorIndex p:Type="Int32">3</p:ColorIndex>
           </Overlay>
-          <Pad Id="MdnOODfZxmMMNbQmehn6ei" Comment="" Bounds="617,324,24,13" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MdnOODfZxmMMNbQmehn6ei" Comment="" Bounds="581,324,24,13" ShowValueBox="true" isIOBox="true" />
           <Pad Id="Kl8ZToy7EG9P0lVuoX3avd" Comment="" Bounds="785,700,24,13" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="110,407,46,19" Id="U6Ql1K7CL1kLXBK15Cef0m">
+          <Node Bounds="110,407,53,19" Id="U6Ql1K7CL1kLXBK15Cef0m">
             <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ToRGB" />
+              <Choice Kind="OperationCallFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="Kp5XAM1TOaLLmimzEHKws5" Name="Unicolour" Kind="InputPin" />
             <Pin Id="SBqNFB7RyLNOGbYG700DIN" Name="RGBA" Kind="OutputPin" />
           </Node>
-          <Node Bounds="110,599,46,19" Id="PD0N8BK9sKWMvxXWb0jOJz">
+          <Node Bounds="110,599,53,19" Id="PD0N8BK9sKWMvxXWb0jOJz">
             <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ToRGB" />
+              <Choice Kind="OperationCallFlag" Name="ToRGBA" />
             </p:NodeReference>
             <Pin Id="DH03jWjG9gaMoCN9LVvEum" Name="Unicolour" Kind="InputPin" />
             <Pin Id="AooygOJ6ewpLRvCEqKvPgv" Name="RGBA" Kind="OutputPin" />
@@ -486,6 +449,38 @@
             </p:NodeReference>
             <Pin Id="LCltie5TV4nPszNg7iZkUZ" Name="RGBA" Kind="InputPin" />
             <Pin Id="KZ9cJ31XzvjLENApsD0S4a" Name="Unicolour" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="729,939,53,19" Id="R6SiYTI70JCPe3arUuDZa6">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToRGBA" />
+            </p:NodeReference>
+            <Pin Id="AuzMUIxjioWLOXu4YZOeAf" Name="Unicolour" Kind="InputPin" />
+            <Pin Id="Gg6i9p0O6J6Ns09BDOvyLC" Name="RGBA" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1152,939,53,19" Id="Am707NJnHfsOriLM0e2JHU">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToRGBA" />
+            </p:NodeReference>
+            <Pin Id="EBuonida3HyLITAG67qMb2" Name="Unicolour" Kind="InputPin" />
+            <Pin Id="UG1gtnIaPxhMwQ9WDqXNgH" Name="RGBA" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1360,939,53,19" Id="D4SCFmpoGJxNAqyyMFz9ua">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToRGBA" />
+            </p:NodeReference>
+            <Pin Id="Oj7SpcywB5SMDKGD3JDf24" Name="Unicolour" Kind="InputPin" />
+            <Pin Id="NBzqqG3jBI1Osjp87PC3P4" Name="RGBA" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1049,685,64,19" Id="TNLQivaBTToPWnkOC7nozu">
+            <p:NodeReference LastCategoryFullName="Main.Color.Unicolour" LastDependency="VL.Unicolour.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromRGBA" />
+            </p:NodeReference>
+            <Pin Id="PNMiOyhCZClLuP3tELDNkS" Name="RGBA" Kind="InputPin" />
+            <Pin Id="UV5NFA6GWsTOUJO0UVzv5g" Name="Unicolour" Kind="OutputPin" />
           </Node>
         </Canvas>
         <ProcessDefinition Id="K7TM8hkyWeYLm9fvrmNrOS">
@@ -521,28 +516,15 @@
         <Link Id="BrJ0MJNDXNwLQz2Ws0uWrW" Ids="JB8r9ovz3WBQCidHQFpyXL,U3I6hk2K1TINRLdgmrdZJr" />
         <Link Id="CqjfarPS3vHQHj4S5hbTcV" Ids="Dcm1FPpsbgJLHCIJlEKji4,QRNYcGzeiRpPUyuqmWnMiI" />
         <Link Id="KUYSD3Ui03RO3a5tdLLcBT" Ids="ELzs8c5ySB8NlTAlTtGiTm,LjpYpK4iudYPxGRqHiE2RV" />
-        <Link Id="Joag71hnfHfMNm3A1PL9cx" Ids="JvCBn4QG0SRNK6gSiohcxs,Hx2eaZI9l82Mgq91wQUIVv" />
-        <Link Id="ATi3Z6QLmrcNRGOhfAXs6o" Ids="MgsdXRiqn0eNWiM95gLSW0,MUdwawBxPhNNeyXo9MQJjt" />
         <Link Id="EGRBko00tB1O9YGWPSUQpv" Ids="Rcj7h4g8uTWPcIX4aBQeGw,KEYZmk30bfKMvpNk2hJHxS" />
         <Link Id="El7EqJDRw7xP4UzM46f3q7" Ids="NL40CBEVzSnLtzjMvCJOyN,JWgp9JWQshhM8MBbKIHW5n" />
         <Link Id="GH6BNNkOgs3O1sAM9vVBbD" Ids="DZHToVeFMfDMM3g2zLuwSs,QpUFkc0A2uQNp7XwonYaSz" />
-        <Link Id="COs16GetfdUMnTKXyiIbo7" Ids="MgsdXRiqn0eNWiM95gLSW0,EL4lABGWlPGPIRegHEgK0l" />
         <Link Id="FSbHrc4osCfPuzsUvCLRjc" Ids="MEivd9E42PwOSPLyCoBKfm,GMh4WemR9b4OvCXuHtQNEg" />
-        <Link Id="LVClIOwvzmHP4onQAZ5sE2" Ids="MgsdXRiqn0eNWiM95gLSW0,C7NjlXqyZ1bOWuepR1y2jC" />
         <Link Id="PqL5fwyIra2PE5MwbPE2TE" Ids="Hq4tg6cbvSKNsNXJctbZMw,Mmuf4GYpmTWP0TM3KaEYN7" />
         <Link Id="T4Bt1cnbTZSN4F1KMjsqoS" Ids="G6hqtDmxVJGMXxVZa8Sy1H,Ejlz8cINZ9CNXByvF3DqDY" />
         <Link Id="DtwqKMfiUU4PRonk0dpqjY" Ids="TMs10ZO85MYMSvAZkMrQjB,Nb15hNxWh20LaB6CrTh1zZ" />
-        <Link Id="FQOgZXlI49tQb88XzzHs3N" Ids="MgsdXRiqn0eNWiM95gLSW0,N1Yy0tHkpYeMcwGQKKs0D7" />
-        <Link Id="QVTgVxsRPTfODvj153Mvv1" Ids="TvvXo1zXfOQP2UUuj7rG65,EWv090MiBTzNAtjdsq3cR8" />
-        <Link Id="Es6n6QpSDiFNMIgrrXTOdB" Ids="OfiNgq41StFMxFWm2EFQt1,LE4XF94UnXTMb8kYG4t7I5" />
         <Link Id="TwcfHDd8BvPPP8p6kvBf9m" Ids="DZHToVeFMfDMM3g2zLuwSs,UIDLygo5KmwOGikGmrwbnZ" />
-        <Link Id="DsMXRtQEdPxOjL0UHUWTnf" Ids="MgsdXRiqn0eNWiM95gLSW0,LekLbyxL7wLMfWzRMy44un" />
-        <Link Id="OfCox8gB5fmO1xSv1wkzVv" Ids="QMHe9VLLT97O79LgJSXxZw,RP4dSWaDzsNMeEw9yZGzHL" />
-        <Link Id="D24tZtGallQPzAKUmRHE8o" Ids="Jp3iVZ4Gb3XMJDG2HUXF1H,NSoS1NBVhsbL5HuP4EnWB8" />
-        <Link Id="Fp1cLFFRY97NgI6UlTWzoq" Ids="RvipcTxLlDkPchCU2v5TRS,GtWc4JVA2VrOeUun6VEMV3" />
         <Link Id="DqFTEiaWaHFO4bBZ2C6DfU" Ids="DZHToVeFMfDMM3g2zLuwSs,OpwjoOLmHtNP4CwUqF6dMh" />
-        <Link Id="ETMD7t9xHRiN1xdOqKyUht" Ids="MgsdXRiqn0eNWiM95gLSW0,H0e43nQiF7fPv48iAy3br7" />
-        <Link Id="CuXSb6nANI6NMdTDwcUFKG" Ids="HpelGtCFXvxNoa7u2TRYJN,NgSeJXlAKagOcDhdqSJv5l" />
         <Link Id="EsBW9M71WdbP1pV8u3cjbG" Ids="DZHToVeFMfDMM3g2zLuwSs,J7wdoQBuYkQOv08ouGznVu" />
         <Link Id="QCswAa3czAnNPrKMUk5k8a" Ids="MJeaR2J71JKPiSQ1VDmCF2,MdnOODfZxmMMNbQmehn6ei" />
         <Link Id="Irj7dgwR1BFMcGKxKb4qzn" Ids="MdnOODfZxmMMNbQmehn6ei,SFzyr3MiI4HNItWVlhPt03" />
@@ -563,6 +545,19 @@
         <Link Id="Dn7mjJuGwVpPWb4GFjt5BO" Ids="AooygOJ6ewpLRvCEqKvPgv,AKOdgPonf1VLgcuT3vpfDt" />
         <Link Id="U4nVVHoUQV5NRxLXfB7Oke" Ids="Nv4wLLsJXZFOF8eJ4YxeRN,LCltie5TV4nPszNg7iZkUZ" />
         <Link Id="DRdUFhbW3iJO26X85AZoyK" Ids="KZ9cJ31XzvjLENApsD0S4a,DH03jWjG9gaMoCN9LVvEum" />
+        <Link Id="JZ0gPnae29fM6FfLBKaIXn" Ids="OfiNgq41StFMxFWm2EFQt1,AuzMUIxjioWLOXu4YZOeAf" />
+        <Link Id="FGmtCwvqZuiQJmxCF2jW03" Ids="Gg6i9p0O6J6Ns09BDOvyLC,EWv090MiBTzNAtjdsq3cR8" />
+        <Link Id="FDJo6wddgWLOK1x8iIcWDK" Ids="RvipcTxLlDkPchCU2v5TRS,EBuonida3HyLITAG67qMb2" />
+        <Link Id="V2CslJXmwVMOaoh9E1Mu8d" Ids="UG1gtnIaPxhMwQ9WDqXNgH,NSoS1NBVhsbL5HuP4EnWB8" />
+        <Link Id="R9UlnUfAMWbPCb5IyvF7ze" Ids="HpelGtCFXvxNoa7u2TRYJN,Oj7SpcywB5SMDKGD3JDf24" />
+        <Link Id="Pk24A5HK1KGOW8WFt5U0ry" Ids="NBzqqG3jBI1Osjp87PC3P4,RP4dSWaDzsNMeEw9yZGzHL" />
+        <Link Id="QXXaS4mwfzTLogeFJKFpaH" Ids="JvCBn4QG0SRNK6gSiohcxs,PNMiOyhCZClLuP3tELDNkS" />
+        <Link Id="Ssdp8JbcAtyLsczGUWeLd1" Ids="UV5NFA6GWsTOUJO0UVzv5g,MUdwawBxPhNNeyXo9MQJjt" />
+        <Link Id="B8MRjdbnQ5gLiZC7ZRvlaA" Ids="UV5NFA6GWsTOUJO0UVzv5g,EL4lABGWlPGPIRegHEgK0l" />
+        <Link Id="TX8w2eUmogcMmuTuowuFHr" Ids="UV5NFA6GWsTOUJO0UVzv5g,C7NjlXqyZ1bOWuepR1y2jC" />
+        <Link Id="L86isY52mT5QAtbaaRD4Ja" Ids="UV5NFA6GWsTOUJO0UVzv5g,N1Yy0tHkpYeMcwGQKKs0D7" />
+        <Link Id="NfKhnxBYVSqLi4neWj4FuU" Ids="UV5NFA6GWsTOUJO0UVzv5g,LekLbyxL7wLMfWzRMy44un" />
+        <Link Id="ODyEbBEKz9eNYTrqWddnhe" Ids="UV5NFA6GWsTOUJO0UVzv5g,H0e43nQiF7fPv48iAy3br7" />
       </Patch>
     </Node>
   </Patch>
