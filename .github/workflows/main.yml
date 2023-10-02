@@ -24,5 +24,5 @@ jobs:
       with:
         nuspec: deployment\VL.Unicolour.nuspec
         icon-src: icon\Unicolour.png
-        icon-dst: /Unicolour.png
+        icon-dst: .icon/Unicolour.png
         nuget-key: ${{oy2e4gzbkbtpiwknytya5rqawhbhzzee3icm5dn4gzsm4m}}
