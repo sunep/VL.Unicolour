@@ -20,6 +20,4 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.42
       with:
         nuspec: deployment\VL.Unicolour.nuspec
-        icon-src: icon\Unicolour.png
-        icon-dst: .icon/Unicolour.png
         nuget-key: ${{ secrets.NUGET_KEY }}
