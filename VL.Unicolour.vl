@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="FvkzMphhsqJNlLFejkaAK9" LanguageVersion="2023.5.3-0189-g3b1140fa91" Version="0.128">
-  <NugetDependency Id="VilYvv3eJwrMVKFQPKw633" Location="VL.CoreLib" Version="2023.5.3-0189-g3b1140fa91" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="FvkzMphhsqJNlLFejkaAK9" LanguageVersion="2023.5.3-0192-g8dd4ea9c96" Version="0.128">
+  <NugetDependency Id="VilYvv3eJwrMVKFQPKw633" Location="VL.CoreLib" Version="2023.5.3-0192-g8dd4ea9c96" />
   <Patch Id="Hf0d5PIZeFBLyNDuFIcLwJ">
     <Canvas Id="Lst9Ld6DX0vO1S6RUuq5Me" DefaultCategory="Main" CanvasType="FullCategory">
       <Canvas Id="VOTEC4WIQSGOz7s32EhRNb" Name="Color.Unicolour" Position="487,215" DefaultCategory="Main.Color.Unicolour">
@@ -958,5 +958,5 @@
       </Patch>
     </Node>
   </Patch>
-  <PlatformDependency Id="OUb7GbXuZNeOdBHfKeQd1J" Location="C:/Users/sunep/AppData/Local/vvvv/gamma-preview/nugets/Wacton.Unicolour.2.3.0/lib/netstandard2.0/Wacton.Unicolour.dll" />
+  <NugetDependency Id="CWdlzvIYYDGPex2vJShOnD" Location="Wacton.Unicolour" Version="2.3.0" />
 </Document>
