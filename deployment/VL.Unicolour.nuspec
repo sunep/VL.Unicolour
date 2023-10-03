@@ -16,6 +16,7 @@
     <dependencies>
 	  <dependency id="Wacton.Unicolour" version="2.3.0" />
     </dependencies>
+    <icon>icon\Unicolour.png</icon>
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
